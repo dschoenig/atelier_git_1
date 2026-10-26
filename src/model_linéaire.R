@@ -19,3 +19,6 @@ with(
 cor(gala)
 
 
+# Modèle linéaire -----------------------------------------
+
+mod_sp <- lm(log(Species) ~ log(Area), data = gala)
